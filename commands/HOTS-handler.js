@@ -1,4 +1,4 @@
-const Discord = require("discord.js");
+﻿const Discord = require("discord.js");
 
 module.exports = async (message, args) => {
   switch (args) {
@@ -369,6 +369,7 @@ module.exports = async (message, args) => {
       break;
 
     case "dva":
+    case "d.va":
       await message.channel.send({
         files: [
           "./builds/HOTS/dva/1.png",
