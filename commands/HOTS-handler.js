@@ -217,6 +217,7 @@ module.exports = async (message, args) => {
       break;
 
     case "deathwing":
+    case "asa-da-morte":
       await message.channel.send({
         files: [
           "./builds/HOTS/deathwing/1.png",
@@ -239,12 +240,15 @@ module.exports = async (message, args) => {
       break;
 
     case "imperius":
+    case "impérius":
       await message.channel.send({
         files: ["./builds/HOTS/imperius/1.png", "./builds/HOTS/imperius/2.png"],
       });
       break;
 
     case "orphea":
+    case "orféa":
+    case "orfea":
       await message.channel.send({
         files: ["./builds/HOTS/orphea/1.png", "./builds/HOTS/orphea/2.png"],
       });
@@ -257,12 +261,14 @@ module.exports = async (message, args) => {
       break;
 
     case "mephisto":
+    case "mefisto":
       await message.channel.send({
         files: ["./builds/HOTS/mephisto/1.png", "./builds/HOTS/mephisto/2.png"],
       });
       break;
 
     case "whitemane":
+    case "cristalba":
       await message.channel.send({
         files: [
           "./builds/HOTS/whitemane/1.png",
@@ -363,7 +369,6 @@ module.exports = async (message, args) => {
       break;
 
     case "dva":
-    case "d.va":
       await message.channel.send({
         files: [
           "./builds/HOTS/dva/1.png",
@@ -380,24 +385,28 @@ module.exports = async (message, args) => {
       break;
 
     case "cassia":
+    case "cássia":
       await message.channel.send({
         files: ["./builds/HOTS/cassia/1.png", "./builds/HOTS/cassia/2.png"],
       });
       break;
 
     case "probius":
+    case "sondius":
       await message.channel.send({
         files: ["./builds/HOTS/probius/1.png", "./builds/HOTS/probius/2.png"],
       });
       break;
 
     case "lucio":
+    case "lúcio":
       await message.channel.send({
         files: ["./builds/HOTS/lucio/1.png", "./builds/HOTS/lucio/2.png"],
       });
       break;
 
     case "valeera":
+    case "valira":
       await message.channel.send({
         files: ["./builds/HOTS/valeera/1.png", "./builds/HOTS/valeera/2.png"],
       });
@@ -482,6 +491,7 @@ module.exports = async (message, args) => {
       break;
 
     case "chromie":
+    case "crona":
       await message.channel.send({
         files: ["./builds/HOTS/chromie/1.png", "./builds/HOTS/chromie/2.png"],
       });
@@ -520,6 +530,7 @@ module.exports = async (message, args) => {
       break;
 
     case "greymane":
+    case "mane-cinza":
       await message.channel.send({
         files: ["./builds/HOTS/greymane/1.png", "./builds/HOTS/greymane/2.png"],
       });
@@ -532,6 +543,7 @@ module.exports = async (message, args) => {
       break;
 
     case "cho":
+    case "go":
       await message.channel.send({
         files: [
           "./builds/HOTS/cho/1.png",
@@ -542,6 +554,7 @@ module.exports = async (message, args) => {
       break;
 
     case "gall":
+    case "chall":
       await message.channel.send({
         files: ["./builds/HOTS/gall/1.png"],
       });
@@ -653,12 +666,17 @@ module.exports = async (message, args) => {
       break;
 
     case "murky":
+    case "murquinho":
+    case "murco":
+    case "murko":
       await message.channel.send({
         files: ["./builds/HOTS/murky/1.png", "./builds/HOTS/murky/2.png"],
       });
       break;
 
     case "brightwing":
+    case "asaluz":
+    case "asa-luz":
       await message.channel.send({
         files: [
           "./builds/HOTS/brightwing/1.png",
@@ -723,6 +741,7 @@ module.exports = async (message, args) => {
       break;
 
     case "nazeebo":
+    case "nazibo":
       await message.channel.send({
         files: ["./builds/HOTS/nazeebo/1.png", "./builds/HOTS/nazeebo/2.png"],
       });
@@ -802,12 +821,19 @@ module.exports = async (message, args) => {
     case "e-tc":
     case "et-c":
     case "e-t-c":
+    case "cte":
+    case "c-te":
+    case "ct-e":
+    case "c-t-e":
       await message.channel.send({
         files: ["./builds/HOTS/etc/1.png"],
       });
       break;
 
     case "falstad":
+    case "falstao":
+    case "falstão":
+    case "meu-ovo":
       await message.channel.send({
         files: [
           "./builds/HOTS/falstad/1.png",
@@ -818,12 +844,16 @@ module.exports = async (message, args) => {
       break;
 
     case "gazlowe":
+    case "gasganete":
+    case "gazganete":
       await message.channel.send({
         files: ["./builds/HOTS/gazlowe/1.png", "./builds/HOTS/gazlowe/2.png"],
       });
       break;
 
     case "stitches":
+    case "suturino":
+    case "sua-mae":
       await message.channel.send({
         files: ["./builds/HOTS/stitches/1.png", "./builds/HOTS/stitches/2.png"],
       });
@@ -837,6 +867,18 @@ module.exports = async (message, args) => {
 
     case "butcher":
     case "the-butcher":
+    case "açougueiro":
+    case "açogueiro":
+    case "açouguero":
+    case "acougueiro":
+    case "acogueiro":
+    case "acougueiro":
+    case "o-açougueiro":
+    case "o-açogueiro":
+    case "o-açouguero":
+    case "o-acougueiro":
+    case "o-acogueiro":
+    case "o-acougueiro":
       await message.channel.send({
         files: ["./builds/HOTS/butcher/1.png", "./builds/HOTS/butcher/2.png"],
       });
@@ -856,6 +898,8 @@ module.exports = async (message, args) => {
     case "morales":
     case "lt-morales":
     case "ltmorales":
+    case "tenmorales":
+    case "ten-morales":
       await message.channel.send({
         files: ["./builds/HOTS/morales/1.png"],
       });
@@ -870,6 +914,15 @@ module.exports = async (message, args) => {
     case "sthammer":
     case "gthammer":
     case "sghammer":
+    case "marreta":
+    case "sgt-marreta":
+    case "st-marreta":
+    case "gt-marreta":
+    case "sg-marreta":
+    case "sgtmarreta":
+    case "stmarreta":
+    case "gtmarreta":
+    case "sgmarreta":
       await message.channel.send({
         files: ["./builds/HOTS/hammer/1.png"],
       });
@@ -883,6 +936,16 @@ module.exports = async (message, args) => {
     case "the-lost-viking":
     case "thelostviking":
     case "lostviking":
+
+    case "vikings":
+    case "viking":
+    case "os-vikings":
+    case "os-viking":
+    case "o-viking":
+    case "os-vikings-perdidos":
+    case "o-viking-perdido":
+    case "osvikingsperdidos":
+    case "ovikingperdido":
       await message.channel.send({
         files: ["./builds/HOTS/vikings/1.png"],
       });
