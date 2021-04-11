@@ -33,14 +33,9 @@ client.on("message", async (message) => {
   )
     return;
 
-  var arg = encodeURI(message)
-    .slice(config.prefix.length)
-    .trim()
-    .split("'")
-    .split(".");
+  var arg = encodeURI(message).slice(config.prefix.length).trim().split("'");
   const args = arg
     .filter(() => (arg = "'"))
-    .filter(() => (arg = "."))
     .join("")
     .toLowerCase()
     .split("%20");
