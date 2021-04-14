@@ -2,6 +2,7 @@ const { version } = require("../package.json");
 const help = require("../commands/help");
 
 const HOTSHandler = require("../commands/HOTS-handler");
+const LoLHandler = require("../commands/LoL-handler");
 
 // Method to handle multiple commands
 module.exports = async (message, command, args) => {
@@ -17,6 +18,16 @@ module.exports = async (message, command, args) => {
     case "hero":
     case "heroe":
       await HOTSHandler(message, args.join("-"));
+      break;
+
+    case "leagueoflegends":
+    case "leagueoflegend":
+    case "l o l":
+    case "lo l":
+    case "l ol":
+    case "lol":
+    case "l":
+      await LoLHandler(message, args.join("-"));
       break;
 
     case "version":
