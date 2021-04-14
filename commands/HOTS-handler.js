@@ -4,8 +4,8 @@ module.exports = async (message, args) => {
   switch (args) {
     case "list":
       await message.channel.send(
-        "```md\n" +
-          "# Hero List in Heroes of The Storm\n\n" +
+        "```diff\n" +
+          "List of Heroes in Heroes of The Storm\n\n" +
           "- Abathur -> " +
           "Support\n" +
           "- Diablo -> " +
@@ -18,7 +18,7 @@ module.exports = async (message, args) => {
           "Ranged Ass\n" +
           "- Gazlowe -> " +
           "Bruiser\n" +
-          "- Illidan <3 -> " +
+          "+ Illidan <3 -> " +
           "Melee Ass\n" +
           "- Kerrigan -> " +
           "Melee Ass\n" +
